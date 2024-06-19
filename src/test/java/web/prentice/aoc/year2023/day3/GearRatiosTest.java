@@ -29,9 +29,7 @@ class GearRatiosTest {
     void q1(){
         String example = "src/test/java/year2023/day3/input";
         int result = GearRatios.findAllPartNumbersAndSum(example);
-        assertThat(result).isEqualTo(516054); //too low
-        assertThat(result).isEqualTo(519225); //too high
-
+        assertThat(result).isEqualTo(517021);
     }
 
 }
